@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/authenticatorMenuTitle"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="10dp"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:id="@+id/header"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        >
+
+        <TextView
+            android:id="@+id/txt_header"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/black"
+            android:textStyle="bold"
+            android:text="title"
+            android:padding="0dp"
+
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@+id/collapse"
+            android:layout_toEndOf="@+id/collapse" />
+        <ImageView
+            android:id="@+id/collapse"
+            android:padding="7dp"
+            android:layout_width="40dp"
+            android:layout_height="50dp"
+            android:src="@drawable/collapse_up"
+            android:layout_centerVertical="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+    </RelativeLayout>
+</LinearLayout>

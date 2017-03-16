@@ -3,4 +3,9 @@
 
     <string name="hello_world">Hello world!</string>
     <string name="action_settings">Settings</string>
+    <string name="PERSON_NAME_TIT">PERSON NAME</string>
+    <string name="PERSON_EMAIL_TIT">PERSON EMAIL</string>
+    <string name="PERSON_VIEW_TIT">VIEW PROFILE</string>
+    <string name="PERSON_BTN_VIEW">View Profile</string>
+    <string name="PERSON_BTN_EDIT">Edit Profile</string>
 </resources>
